@@ -147,10 +147,6 @@
       } 
 }
 
-
-
-
-
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
@@ -179,4 +175,39 @@
     background: #f5f5f5;
     width: 60px;
     height: 20px;
+}
+
+/* Esercizio 12  */
+.ex-12-button .ex-12-top-white {
+    animation: spazio-bianco-top 3s infinite;
+}
+
+@keyframes spazio-bianco-top {
+    0% {
+        background: #f5f5f5;
+        top: -10px;
+        left: 10%;
+    }
+    50% {
+        background: #f5f5f5;
+        top: -10px;
+        left: 50%;
+    }
+}
+
+.ex-12-button .ex-12-bottom-white {
+    animation: spazio-bianco-bottom 3s infinite;
+}
+
+@keyframes spazio-bianco-bottom {
+    0% {
+        background: #f5f5f5;
+        bottom: -10px;
+        right: 20%;
+    }
+    50% {
+        background: #f5f5f5;
+        bottom: -10px;
+        right: 50%;
+    }
 }
