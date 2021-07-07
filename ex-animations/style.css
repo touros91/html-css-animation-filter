@@ -1,4 +1,4 @@
-/* esercizio 1  */
+/* Esercizio 1  */
 .ex-1-square {
     width: 100px;
     height: 100px;
@@ -10,7 +10,7 @@
     background-color: red;
 }
 
-/* esercizio 2  */
+/* Esercizio 2  */
 .ex-2-square {
     width: 100px;
     height: 100px;
@@ -22,7 +22,7 @@
     width: 1000px;
 }
 
-/* esercizio 3  */
+/* Esercizio 3  */
 .ex-3-square {
     width: 100px;
     height: 100px;
@@ -34,7 +34,7 @@
     border-radius: 50%;
 }
 
-/* esercizio 4  */
+/* Esercizio 4  */
 .ex-4-square {
     width: 100px;
     height: 100px;
@@ -46,7 +46,7 @@
     opacity: 0;
 }
 
-/* esercizio 5  */
+/* Esercizio 5  */
 .ex-5-square {
     margin: 20px;
     width: 60px;
@@ -67,6 +67,11 @@
 
 .ex-6-img, .ex-7-img, .ex-8-img {
     width: 500px;
+}
+
+/* Esercizio 6  */
+.ex-6-img:hover {
+    filter: grayscale(100%);
 }
 
 .ex-9-img {
