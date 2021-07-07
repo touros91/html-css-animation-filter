@@ -94,10 +94,23 @@
     filter: sepia(100%);
 }
 
+/* Esercizio 9  */
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
 }
+
+.ex-9-img {
+    transition: width border-radius filter 3s;
+}
+
+.ex-9-img:hover {
+    width: 300px;
+    border-radius: 20%;
+    filter: blur(3px);
+    transform: scale(1.7);
+}
+
 .ex-10-icon {
     font-size: 60px;
 }
