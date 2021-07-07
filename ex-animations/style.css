@@ -216,27 +216,27 @@
 @keyframes spazio-top {
     0% {
         top: -10px;
-        left: -6px;
+        left: -3px;
     }
     20% {
         top: -10px;
-        left: calc(100% - 56px);
+        left: calc(100% - 57px);
     }
     40% {
         top: 100%;
-        left: calc(100% - 56px);    
+        left: calc(100% - 57px);    
     }
     60% {
         top: 100%;
-        left: -6px;
+        left: -3px;
     }
     80% {
-        top: -10px;
-        left: -6px;
+        top: 100%;
+        left: -3px;
     }
     100% {
         top: -10px;
-        left: -6px;
+        left: -3px;
     }
 }
 
@@ -247,26 +247,26 @@
 @keyframes spazio-bottom {
     0% {
         bottom: -10px;
-        left: -6px;
+        right: -3px;
     }
     20% {
         bottom: -10px;
-        right: calc(100% - 56px);
+        right: calc(100% - 57px);
     }
     40% {
         bottom: 100%;
-        right: calc(100% - 56px);    
+        right: calc(100% - 57px);    
     }
     60% {
         bottom: 100%;
-        right: -6px;
+        right: -3px;
     }
     80% {
-        bottom: -10px;
-        right: -6px;
+        bottom: 100%;
+        right: -3px;
     }
     100% {
         bottom: -10px;
-        right: -6px;
+        right: -3px;
     }
 }
